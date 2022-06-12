@@ -1,4 +1,4 @@
-#pragma warning(disable:4326) //
+ï»¿#pragma warning(disable:4326) //
 #include<iostream>
 using namespace std;
 #define UPPER_LEFT_ANGLE  (char)218
@@ -13,9 +13,9 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "Øàõìàòíàÿ äîñêà\n";
+	cout << "Ð¨Ð°Ñ…Ð¼Ð°Ñ‚Ð½Ð°Ñ Ð´Ð¾ÑÐºÐ°\n";
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	setlocale(LC_ALL, "C");
 	/*for (int i = 0; i < 256; i++)
 	{
